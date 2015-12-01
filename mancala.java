@@ -1,4 +1,4 @@
-package ai;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -2510,7 +2510,7 @@ class mancala
         File f = new File("output.txt");
         FileOutputStream fos = new FileOutputStream(f);
         PrintWriter pw = new PrintWriter(fos);
-        File inFile=new File(args[1]);
+        File inFile=new File("input.txt");
         BufferedReader br = null;
         List<String> input = new ArrayList<String>();
         try 
